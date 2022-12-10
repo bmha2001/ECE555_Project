@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1670630704 1670630704
+lvs_ExtOutFile RUNDIR /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit
+lvs_ExtOutFile RULES_FILE /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit/_lvsRules_calibre_asap7.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit/MULTIPLIER_2bit.sp
+lvs_ExtOutFile EXTRACTION_REPORT MULTIPLIER_2bit.lvs.report.ext

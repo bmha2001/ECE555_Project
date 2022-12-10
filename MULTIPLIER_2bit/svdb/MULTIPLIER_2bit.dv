@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/MULTIPLIER_2bit.dv
+dv_start matched                                  
+dv_cell {MULTIPLIER_2bit} {MULTIPLIER_2bit} matched
+dv_obj_count -transformed_nets {13 13} -transformed_inst {14 14} -transformed_port {6 6}
+dv_end

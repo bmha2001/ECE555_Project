@@ -1,0 +1,251 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         MULTIPLIER_2bit.lvs.report
+LAYOUT NAME:              /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit/MULTIPLIER_2bit.sp ('MULTIPLIER_2bit')
+SOURCE NAME:              /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit/MULTIPLIER_2bit.sp ('MULTIPLIER_2bit')
+RULE FILE:                /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit/_lvsRules_calibre_asap7.rul_
+RULE FILE TITLE:          LVS Rule File for ASAP7 PDK
+CREATION TIME:            Fri Dec  9 18:05:04 2022
+CURRENT DIRECTORY:        /filespace/x/xxia48/ece555/ECE555/MULTIPLIER_2bit
+USER NAME:                xxia48
+CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Source and layout refer to the same data.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        MULTIPLIER_2bit               MULTIPLIER_2bit
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "vdd!" "VDD!"
+   LVS GROUND NAME                        "VSS!" "vss!"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES SEMI ALSO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  nfin nfin 0 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         MULTIPLIER_2bit
+SOURCE CELL NAME:         MULTIPLIER_2bit
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              19        19
+
+ Instances:         15        15         MN (4 pins)
+                    15        15         MP (4 pins)
+                ------    ------
+ Total Inst:        30        30
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              13        13
+
+ Instances:          3         3         MN (4 pins)
+                     6         6         MP (4 pins)
+                     2         2         SMN2 (4 pins)
+                     2         2         SMP2 (4 pins)
+                     1         1         SPMN_2_1 (5 pins)
+                ------    ------
+ Total Inst:        14        14
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               6          6            0            0
+
+   Nets:               13         13            0            0
+
+   Instances:           2          2            0            0    MN(NMOS_LVT)
+                        1          1            0            0    MN(NMOS_RVT)
+                        5          5            0            0    MP(PMOS_LVT)
+                        1          1            0            0    MP(PMOS_RVT)
+                        2          2            0            0    SMN2
+                        2          2            0            0    SMP2
+                        1          1            0            0    SPMN_2_1
+                  -------    -------    ---------    ---------
+   Total Inst:         14         14            0            0
+
+
+o Statistics:
+
+   20 layout mos transistors were reduced to 10.  1 connecting net was deleted.
+     8 mos transistors were deleted by parallel reduction.
+     2 mos transistors and 1 connecting net were deleted by split-gate reduction.
+   20 source mos transistors were reduced to 10.  1 connecting net was deleted.
+     8 mos transistors were deleted by parallel reduction.
+     2 mos transistors and 1 connecting net were deleted by split-gate reduction.
+
+
+o Initial Correspondence Points:
+
+   Ports:        X<1> W<1> X<0> W<0> OUT<0> OUT<1>
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec
